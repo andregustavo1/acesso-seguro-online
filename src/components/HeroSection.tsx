@@ -13,7 +13,7 @@ const HeroSection = () => {
         }}
       />
       
-      <div className="container relative z-10">
+      <div className="container px-6 md:px-12 lg:px-24 relative z-10">
         <div className="max-w-3xl animate-fade-in delay-100">
           <div className="bg-brand-red h-1 w-20 mb-6"></div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
@@ -30,12 +30,6 @@ const HeroSection = () => {
             Solicitar Orçamento
           </a>
         </div>
-      </div>
-      
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
       </div>
     </section>
   );

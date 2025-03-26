@@ -42,39 +42,59 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center animate-fade-in">
-          <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-brand-red to-brand-blue">
-            S&S<span className="text-brand-black">Automação</span>
+          <span className={cn(
+            "text-2xl font-bold bg-clip-text",
+            scrolled 
+              ? "text-transparent bg-gradient-to-r from-brand-red to-brand-blue" 
+              : "text-brand-red"
+          )}>
+            S&S<span className={scrolled ? "text-brand-black" : "text-white"}>Automação</span>
           </span>
         </div>
         
         <nav className="hidden md:flex space-x-6 animate-fade-in">
           <button 
             onClick={() => scrollToSection('sobre')}
-            className="text-brand-black hover:text-brand-red transition-colors"
+            className={cn(
+              "hover:text-brand-red transition-colors",
+              scrolled ? "text-brand-black" : "text-white"
+            )}
           >
             Sobre
           </button>
           <button 
             onClick={() => scrollToSection('diferenciais')}
-            className="text-brand-black hover:text-brand-red transition-colors"
+            className={cn(
+              "hover:text-brand-red transition-colors",
+              scrolled ? "text-brand-black" : "text-white"
+            )}
           >
             Diferenciais
           </button>
           <button 
             onClick={() => scrollToSection('servicos')}
-            className="text-brand-black hover:text-brand-red transition-colors"
+            className={cn(
+              "hover:text-brand-red transition-colors",
+              scrolled ? "text-brand-black" : "text-white"
+            )}
           >
             Serviços
           </button>
           <button 
             onClick={() => scrollToSection('processo')}
-            className="text-brand-black hover:text-brand-red transition-colors"
+            className={cn(
+              "hover:text-brand-red transition-colors",
+              scrolled ? "text-brand-black" : "text-white"
+            )}
           >
             Processo
           </button>
           <button 
             onClick={() => scrollToSection('contato')}
-            className="text-brand-black hover:text-brand-red transition-colors"
+            className={cn(
+              "hover:text-brand-red transition-colors",
+              scrolled ? "text-brand-black" : "text-white"
+            )}
           >
             Contato
           </button>
