@@ -103,9 +103,9 @@ const Header = () => {
         <a 
           href={whatsappLink}
           target="_blank"
-          className="bg-brand-red hover:bg-red-600 text-white py-2 px-4 rounded-md transition-all hover:scale-105 shadow-sm animate-fade-in"
+          className="bg-brand-red hover:bg-red-600 text-white py-1.5 px-3 rounded-md transition-all hover:scale-105 shadow-sm animate-fade-in text-sm"
         >
-          Solicitar Orçamento
+          Contate-nos
         </a>
       </div>
     </header>
