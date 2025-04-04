@@ -46,7 +46,7 @@ const Header = () => {
             src="/lovable-uploads/674419b7-7686-4383-b5e1-e19b05d7eb17.png" 
             alt="S&S Automação" 
             className={cn(
-              "h-10 transition-all duration-300",
+              "h-14 transition-all duration-300", // Increased from h-10 to h-14
               scrolled ? "brightness-0" : ""
             )}
           />
