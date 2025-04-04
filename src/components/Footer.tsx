@@ -11,16 +11,12 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/674419b7-7686-4383-b5e1-e19b05d7eb17.png" 
                 alt="S&S Automação" 
-                className="h-16" // Increased from h-12 to h-16
+                className="h-20" // Increased from h-16 to h-20
               />
             </div>
             <p className="max-w-xs text-gray-400">
               Soluções completas em segurança eletrônica, automação e controle de acesso.
             </p>
-            <div className="mt-4 text-sm">
-              <p>Nossas equipes são certificadas pelos fabricantes e possuem as certificações:</p>
-              <p className="font-semibold mt-1">NR10, NR35, NR6, NR1</p>
-            </div>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8">

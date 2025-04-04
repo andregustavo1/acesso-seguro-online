@@ -42,6 +42,14 @@ const AboutSection = () => {
               comprometidos em oferecer a melhor solução para cada cliente, 
               garantindo maior segurança e tranquilidade.
             </p>
+            <div className="bg-gray-100 p-4 rounded-md border-l-4 border-brand-red">
+              <p className="text-gray-700 mb-2">
+                Nossas equipes são certificadas pelos fabricantes e possuem as certificações:
+              </p>
+              <p className="font-semibold text-brand-black">
+                NR10, NR35, NR6, NR1
+              </p>
+            </div>
           </div>
           
           <div className="md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6">
