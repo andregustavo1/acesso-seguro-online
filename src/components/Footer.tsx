@@ -7,12 +7,20 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between mb-8">
           <div className="mb-6 md:mb-0">
-            <div className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-brand-red to-white mb-3">
-              S&S<span className="text-white">Automação</span>
+            <div className="mb-3">
+              <img 
+                src="/lovable-uploads/674419b7-7686-4383-b5e1-e19b05d7eb17.png" 
+                alt="S&S Automação" 
+                className="h-12" 
+              />
             </div>
             <p className="max-w-xs text-gray-400">
               Soluções completas em segurança eletrônica, automação e controle de acesso.
             </p>
+            <div className="mt-4 text-sm">
+              <p>Nossas equipes são certificadas pelos fabricantes e possuem as certificações:</p>
+              <p className="font-semibold mt-1">NR10, NR35, NR6, NR1</p>
+            </div>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
@@ -41,7 +49,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li><a href="https://wa.me/5511988386740" target="_blank" className="hover:text-brand-red transition-colors">(11) 98838-6740</a></li>
                 <li><a href="mailto:sesautomacao@gmail.com" className="hover:text-brand-red transition-colors">sesautomacao@gmail.com</a></li>
-                <li><a href="https://instagram.com/ssautomacao" target="_blank" className="hover:text-brand-red transition-colors">@ssautomacao</a></li>
+                <li><a href="https://instagram.com/sesautomacao" target="_blank" className="hover:text-brand-red transition-colors">@sesautomacao</a></li>
               </ul>
             </div>
           </div>

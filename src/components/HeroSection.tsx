@@ -13,7 +13,7 @@ const HeroSection = () => {
         }}
       />
       
-      <div className="container px-6 md:px-12 lg:px-24 relative z-10">
+      <div className="container px-8 md:px-12 lg:px-24 relative z-10">
         <div className="max-w-3xl animate-fade-in delay-100">
           <div className="bg-brand-red h-1 w-20 mb-6"></div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">

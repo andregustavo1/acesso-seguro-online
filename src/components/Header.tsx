@@ -42,14 +42,14 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center animate-fade-in">
-          <span className={cn(
-            "text-2xl font-bold bg-clip-text",
-            scrolled 
-              ? "text-transparent bg-gradient-to-r from-brand-red to-brand-blue" 
-              : "text-brand-red"
-          )}>
-            S&S<span className={scrolled ? "text-brand-black" : "text-white"}>Automação</span>
-          </span>
+          <img 
+            src="/lovable-uploads/674419b7-7686-4383-b5e1-e19b05d7eb17.png" 
+            alt="S&S Automação" 
+            className={cn(
+              "h-10 transition-all duration-300",
+              scrolled ? "brightness-0" : ""
+            )}
+          />
         </div>
         
         <nav className="hidden md:flex space-x-6 animate-fade-in">
